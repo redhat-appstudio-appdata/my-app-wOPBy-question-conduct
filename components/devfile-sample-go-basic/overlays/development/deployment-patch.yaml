@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-go-basic
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/alexeykazakov-tenant/my-app/devfile-sample-go-basic@sha256:9c6193b417543cb1e4069269d23814cf5493316574e5865487baa3b23553d091
+      - image: quay.io/redhat-user-workloads/alexeykazakov-tenant/my-app/devfile-sample-go-basic@sha256:085c459c29ea874039d0db67c62dc4f09a9e86c5e1d2be54127d03b80e1bac50
         name: my-go
         resources: {}
 status: {}
