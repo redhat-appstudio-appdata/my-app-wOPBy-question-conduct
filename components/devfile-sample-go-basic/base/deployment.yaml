@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/alexeykazakov-tenant/my-app/devfile-sample-go-basic@sha256:e50df93ecc9a8bdcaa37581811c24740aaf3ce27ae8f990445c6f13b922d62b3
+      - image: quay.io/redhat-user-workloads/alexeykazakov-tenant/my-app/devfile-sample-go-basic@sha256:3c225e9a2434d334b4fa76706daeabc8cd04f4ffe8c28bfa87c31fc3c02b4bdd
         name: my-go
         ports:
         - containerPort: 8081
